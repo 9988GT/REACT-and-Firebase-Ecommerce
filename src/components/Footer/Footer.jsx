@@ -27,7 +27,8 @@ const Footer = () => {
                     {/* media icon  */}
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         {/* facebook  */}
-                        <a className="text-gray-100 cursor-pointer">
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Ftushargupta359"target="FACE"
+                        className="text-gray-100 cursor-pointer">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -41,7 +42,8 @@ const Footer = () => {
                         </a>
 
                         {/* twitter  */}
-                        <a className="ml-3 text-gray-100 cursor-pointer">
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Ftushargupta359" target="TW"
+                        className="ml-3 text-gray-100 cursor-pointer">
                             <svg
                                 fill="currentColor"
                                 strokeLinecap="round"
@@ -55,7 +57,8 @@ const Footer = () => {
                         </a>
 
                         {/* instagram  */}
-                        <a className="ml-3 text-gray-100 cursor-pointer">
+                        <a href="https://www.instagram.com/tushargupta_tg/?igsh=cGp2cmp4dG1mbmtk" target="INS"
+                        className="ml-3 text-gray-100 cursor-pointer">
                             <svg
                                 fill="none"
                                 stroke="currentColor"
@@ -71,7 +74,8 @@ const Footer = () => {
                         </a>
 
                         {/* linkedIn  */}
-                        <a className="ml-3 text-gray-100 cursor-pointer">
+                        <a href="www.linkedin.com/in/tushar-gupta-29b533239"target="HH" 
+                        className="ml-3 text-gray-100 cursor-pointer">
                             <svg
                                 fill="currentColor"
                                 stroke="currentColor"
@@ -81,9 +85,7 @@ const Footer = () => {
                                 className="w-5 h-5"
                                 viewBox="0 0 24 24"
                             >
-                                <path
-                                    stroke="none"
-                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
                                 />
                                 <circle cx={4} cy={4} r={2} stroke="none" />
                             </svg>
