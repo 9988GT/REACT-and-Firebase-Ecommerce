@@ -14,7 +14,7 @@ const CategoryPage = () => {
 
     // filter product 
     const filterProduct = getAllProduct.filter((obj)=> obj.category.includes(categoryname));
-    // console.log(filterProduct)
+    //console.log(filterProduct)
     return (
         <Layout>
             <div className="mt-10">
@@ -22,15 +22,10 @@ const CategoryPage = () => {
                 <div className="">
                     <h1 className=" text-center mb-5 text-2xl font-semibold first-letter:uppercase">{categoryname}</h1>
                 </div>
-
                 {loading ?
-
                     <div className="flex justify-center">
                         <Loader />
-                    </div>
-
-                    :
-
+                    </div> :
                     <section className="text-gray-600 body-font">
                         {/* main 2 */}
                         <div className="container px-5 py-5 mx-auto">
